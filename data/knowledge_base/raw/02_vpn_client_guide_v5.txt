@@ -1,0 +1,21 @@
+DOCUMENT_ID: DOC-002
+TITLE: SecureConnect VPN User Guide
+DOCUMENT_TYPE: software_guide
+DEVICE_MODEL: Windows laptop
+SOFTWARE_VERSION: SecureConnect 5.2
+CATEGORY: vpn
+UPDATED_AT: 2026-09-15
+STATUS: active
+
+SECTION 1: Supported version
+This guide applies to SecureConnect client version 5.2 on Windows 11.
+
+SECTION 2: Error SC-809
+Error SC-809 means the VPN client could not resolve the VPN gateway hostname.
+First, confirm that the laptop has a working network connection.
+Next, check that DNS is set to the office DNS servers 10.10.0.10 or 10.10.0.11.
+Then retry the VPN connection.
+
+SECTION 3: VPN profile
+The gateway hostname is vpn.office.example.
+Do not replace the gateway hostname with an IP address unless IT provides one.

@@ -1,0 +1,16 @@
+DOCUMENT_ID: DOC-003
+TITLE: SecureConnect VPN User Guide — Archived
+DOCUMENT_TYPE: software_guide
+DEVICE_MODEL: Windows laptop
+SOFTWARE_VERSION: SecureConnect 4.1
+CATEGORY: vpn
+UPDATED_AT: 2024-02-01
+STATUS: archived
+
+SECTION 1: Error SC-809
+For SecureConnect 4.1, error SC-809 may occur when the VPN gateway cannot be reached.
+This older guide recommends reinstalling the VPN client.
+
+SECTION 2: Version notice
+This document is for SecureConnect 4.1 only.
+It is archived and must not be used as the current procedure for version 5.2.

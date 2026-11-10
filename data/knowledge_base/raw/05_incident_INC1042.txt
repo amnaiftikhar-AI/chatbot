@@ -1,0 +1,24 @@
+DOCUMENT_ID: DOC-005
+TITLE: Resolved Incident INC-1042
+DOCUMENT_TYPE: incident_report
+DEVICE_MODEL: NetLink AX1800
+SOFTWARE_VERSION: SecureConnect 5.2; Windows 11 23H2
+CATEGORY: vpn
+UPDATED_AT: 2026-10-02
+STATUS: active
+
+SECTION 1: User symptoms
+A staff laptop connected to OFFICE-STAFF Wi-Fi but SecureConnect showed error SC-809.
+The user could open public websites but could not connect to the office VPN.
+
+SECTION 2: Investigation
+The laptop had received DNS server 8.8.8.8 instead of the office DNS servers.
+The VPN gateway hostname vpn.office.example could not be resolved using that DNS.
+
+SECTION 3: Resolution
+IT changed the laptop DNS to 10.10.0.10.
+The user then ran ipconfig /flushdns and connected SecureConnect 5.2 successfully.
+
+SECTION 4: Important note
+This incident is one example, not proof that every SC-809 error has the same cause.
+Check the current device DNS settings before applying the same fix.

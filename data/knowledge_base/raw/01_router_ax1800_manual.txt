@@ -1,0 +1,20 @@
+DOCUMENT_ID: DOC-001
+TITLE: AX1800 Router Quick Manual
+DOCUMENT_TYPE: device_manual
+DEVICE_MODEL: NetLink AX1800
+SOFTWARE_VERSION: Router firmware 1.8
+CATEGORY: network
+UPDATED_AT: 2026-08-10
+STATUS: active
+
+SECTION 1: Wi-Fi and LAN
+The NetLink AX1800 router supports 2.4 GHz and 5 GHz Wi-Fi.
+The office laptop should connect to the staff network named OFFICE-STAFF.
+
+SECTION 2: DNS settings
+The standard office DNS servers are 10.10.0.10 and 10.10.0.11.
+If a device connects to Wi-Fi but cannot open internal hostnames, verify that it received one of these DNS addresses.
+
+SECTION 3: Router restart
+Restart the router only after checking power and network cables.
+A restart can interrupt all connected users.

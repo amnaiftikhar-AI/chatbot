@@ -1,0 +1,45 @@
+# Backend
+fastapi
+uvicorn[standard]
+python-multipart
+httpx
+
+# Database
+sqlalchemy
+psycopg2-binary
+
+# Validation and Configuration
+pydantic
+pydantic-settings
+python-dotenv
+
+# LangChain
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-groq
+
+# LLM API
+groq
+
+# Embeddings
+sentence-transformers
+FlagEmbedding
+
+# Vector Database
+faiss-cpu
+numpy
+
+# Keyword Retrieval
+rank-bm25
+
+# Document Processing
+pypdf
+
+# Frontend
+streamlit
+requests
+
+# Testing
+pytest

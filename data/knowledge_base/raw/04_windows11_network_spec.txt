@@ -1,0 +1,20 @@
+DOCUMENT_ID: DOC-004
+TITLE: Windows 11 Network Support Notes
+DOCUMENT_TYPE: technical_documentation
+DEVICE_MODEL: Windows 11 laptop
+SOFTWARE_VERSION: Windows 11 23H2
+CATEGORY: operating_system
+UPDATED_AT: 2026-07-20
+STATUS: active
+
+SECTION 1: Network checks
+Open Settings, select Network & Internet, and confirm that Wi-Fi shows Connected.
+A connected Wi-Fi status does not guarantee that DNS or internet access is working.
+
+SECTION 2: DNS cache
+After correcting DNS settings, open Command Prompt and run:
+ipconfig /flushdns
+
+SECTION 3: Evidence collection
+If the issue continues, record the DNS server addresses and the exact error code.
+Do not change firewall or security settings without IT approval.
